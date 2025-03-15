@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg shadow">
+    <div class="container">
+        <!-- Left-side logo/icon -->
+        <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo" width="40" height="40" class="me-2">
+            <span>vStopwatch</span>
+        </a>
+
+        <!-- Mobile menu button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Right-side navigation links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                {% for item in site.data.navigation %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>
