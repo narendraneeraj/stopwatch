@@ -33,5 +33,5 @@ hide_meta: true
 </div>
 
 <h2>What is stopwatch</h2><p>A stopwatch is a device used to track the time that passes from when it starts to when it stops.</p>
-
+<h3>Digital Stopwatch</h3>
 <script src="{{ '/assets/js/stopwatch.js' | relative_url }}"></script>

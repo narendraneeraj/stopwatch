@@ -1,13 +1,13 @@
 - name: Home
   url: /
-- name: Timer
-  url: /timer/
-- name: Countdown
-  url: /countdown/
-- name: Worldclock
-  url: /worldclock/
-- name: Alarm Clock
-  url: /alarm-clock/
-- name: Contact
-  url: /contact/
+# - name: Timer
+#   url: /timer/
+# - name: Countdown
+#   url: /countdown/
+# - name: Worldclock
+#   url: /worldclock/
+# - name: Alarm Clock
+#   url: /alarm-clock/
+# - name: Contact
+#   url: /contact/
 
