@@ -1,20 +1,16 @@
-.clock, .stopwatch {
+.clock, {
+    font-size: 1em;
+    margin: 30px 0;
+}
+
+.stopwatch {
     font-size: 3em;
     margin: 30px 0;
+    color: blueviolet;
 }
 button {
     font-size: 1.2em;
     margin: 10px;
     padding: 12px 24px;
     cursor: pointer;
-}
-table {
-    margin: 20px auto;
-    border-collapse: collapse;
-    width: 50%;
-}
-th, td {
-    border: 1px solid black;
-    padding: 12px;
-    text-align: center;
 }
